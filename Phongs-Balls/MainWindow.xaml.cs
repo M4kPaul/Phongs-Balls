@@ -76,7 +76,6 @@ namespace Phongs_Balls
         {
             if (SelectedCanvas != null)
             {
-                var lol = float.Parse(LX.Text);
                 if (float.TryParse(LX.Text, out var fLX) && float.TryParse(LY.Text, out var fLY) && float.TryParse(LZ.Text, out var fLZ) &&
                     float.TryParse(LAr.Text, out var fLAr) && float.TryParse(LAg.Text, out var fLAg) && float.TryParse(LAb.Text, out var fLAb) &&
                     float.TryParse(LDr.Text, out var fLDr) && float.TryParse(LDg.Text, out var fLDg) && float.TryParse(LDb.Text, out var fLDb) &&
